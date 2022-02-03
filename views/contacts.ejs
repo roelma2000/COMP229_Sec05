@@ -31,7 +31,7 @@
               </div>
               <div class="col-md-4 col-12 col-lg-5">
                 <h3 class="text-center">ASK ME&nbsp;</h3>
-    <form action="/" class="was-validated">
+    <form action="/" class="was-validated" onsubmit=submitMe()>
                   <div class="form-group">
                   <table width="400" border="0">
       <tbody>
@@ -49,10 +49,10 @@
         </tr>
           <tr>
           <td align="right"><label>Message:&nbsp;&nbsp;</label></td>
-          <td><textarea name="message" class="form-control"  placeholder="Your Message" id="message" required></textarea></td>
+          <td><textarea type="text"  class="form-control"  placeholder="Your Message" id="message" required></textarea></td>
         </tr>
           <tr>
-          <td>&nbsp;</td><td><button type="submit" class="btn btn-dark mt-2" onclick=submitMe()>Submit</button></td>
+          <td>&nbsp;</td><td><button type="submit" class="btn btn-dark mt-2"  >Submit</button></td>
           </tr>
       </tbody>
     </table>
@@ -66,7 +66,7 @@
           </div>
         </div>
            </section>
-
+           
  <!--- Footer Begins-->>
  
  <%- include partials/footer.ejs%> 
