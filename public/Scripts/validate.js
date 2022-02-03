@@ -1,3 +1,5 @@
+//Name: Rowel Almuete - 301137911 -->  
+
 function submitMe() {
     alert("Thank you. I will respond to you ASAP. Here are the details you entered:" + "\n\n"
         +"Your Email: " + document.getElementById("email").value + "\n"
