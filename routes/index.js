@@ -11,18 +11,18 @@ router.get('/home', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About Me' });
+  res.render('about', { title: 'About Me' });
 });
 
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
+  res.render('projects', { title: 'Projects' });
 });
 
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('services', { title: 'Services' });
 });
 
 router.get('/contacts', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contacts', { title: 'Contact' });
 });
 module.exports = router;

@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <title><%=title %></title>
     <link rel='stylesheet' href='/Content/app.css' />
     <link rel='stylesheet' href='/Content/footer.css' />
-    <link rel='stylesheet' href='/Content/style.css' />
+  
+    <link rel="stylesheet" href="/Content/my.css" />
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
+    <link href="bootstrap-4.4.1.css" rel="stylesheet">
+    <script language="JavaScript">
+      function submitMe() {
+           alert("Thank you. I will respond to you ASAP. Here are the details you entered:" + "\n\n"
+               +"Your Email: " + document.getElementById("email").value + "\n"
+               + "Your Last Name: " + document.getElementById("lname").value + "\n"
+               + "Your First Name: " + document.getElementById("fname").value + "\n"
+               + "Your Message:\n           " + document.getElementById("message").value + "\n"
+           );
+      }
+    </script>
 
   </head>
-  <script src="/Scripts/app.js"></script>
-  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/jquery/dist/jquery.min.js"></script>
+  
   <body>
