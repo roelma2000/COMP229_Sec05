@@ -1,4 +1,6 @@
-//Name: Rowel Almuete - 301137911 -->  
+ //  Filename: validate.js
+ //  Student Name: Rowel Almuete - 301137911 
+ //  Date: 2022-Feb-03  
 
 function submitMe() {
     alert("Thank you. I will respond to you ASAP. Here are the details you entered:" + "\n\n"
